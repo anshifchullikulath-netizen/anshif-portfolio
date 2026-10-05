@@ -77,11 +77,38 @@
 <a href="https://instagram.com/anshiiffff" target="_blank">@anshiiffff</a>
 </div>
 </div>
-<form class="form reveal" onsubmit="event.preventDefault(); alert('Thank you! Your message form is ready to connect to a backend.');">
-<input placeholder="Your name" required="" type="text"/>
-<input placeholder="Your email" required="" type="email"/>
-<textarea placeholder="Tell me about your idea..." required=""></textarea>
-<button class="cta" type="submit">Send Enquiry →</button>
+<form class="form reveal" id="contactForm">
+
+<input
+    type="text"
+    name="name"
+    placeholder="Your name"
+    required
+/>
+
+<input
+    type="email"
+    name="email"
+    placeholder="Your email"
+    required
+/>
+
+<input
+    type="tel"
+    name="phone"
+    placeholder="Your phone"
+/>
+
+<textarea
+    name="message"
+    placeholder="Tell me about your idea..."
+    required
+></textarea>
+
+<button class="cta" type="submit">
+    Send Enquiry →
+</button>
+
 </form>
 </div>
 </section>
